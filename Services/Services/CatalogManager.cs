@@ -1,3 +1,4 @@
+using BusinessObjects;
 using BusinessObjects.Entity;
 using BusinessObjects.Enum;
 using DataAccessLayer.Repository;
@@ -6,18 +7,19 @@ namespace Services.Services
 {
     /// <summary>
     /// CatalogManager provides business logic for managing the book catalog.
-    /// It orchestrates the interactions with the BookRepository.
+    /// It orchestrates the interactions with the BookRepository through dependency injection.
     /// </summary>
-    public class CatalogManager
+    public class CatalogManager : ICatalogManager
     {
-        private readonly BookRepository _bookRepository;
+        private readonly IGenericRepository<Book> _bookRepository;
 
         /// <summary>
-        /// Initializes a new instance of the CatalogManager class.
+        /// Initializes a new instance of the CatalogManager class with injected dependency.
         /// </summary>
-        public CatalogManager()
+        /// <param name="bookRepository">The injected book repository.</param>
+        public CatalogManager(IGenericRepository<Book> bookRepository)
         {
-            _bookRepository = new BookRepository();
+            _bookRepository = bookRepository;
         }
 
         /// <summary>

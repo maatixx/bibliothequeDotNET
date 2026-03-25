@@ -1,3 +1,4 @@
+using BusinessObjects;
 using BusinessObjects.Entity;
 using DataAccessLayer.Repository;
 
@@ -6,8 +7,9 @@ namespace DataAccessLayer.Repository
     /// <summary>
     /// Repository for managing Book entities.
     /// Currently uses in-memory data storage.
+    /// Implements IGenericRepository for dependency injection.
     /// </summary>
-    public class BookRepository : IRepository<Book>
+    public class BookRepository : IGenericRepository<Book>
     {
         private readonly List<Book> _books;
 

@@ -1,3 +1,4 @@
+using BusinessObjects;
 using BusinessObjects.Entity;
 using DataAccessLayer.Repository;
 
@@ -6,8 +7,9 @@ namespace DataAccessLayer.Repository
     /// <summary>
     /// Repository for managing Author entities.
     /// Currently uses in-memory data storage.
+    /// Implements IGenericRepository for dependency injection.
     /// </summary>
-    public class AuthorRepository : IRepository<Author>
+    public class AuthorRepository : IGenericRepository<Author>
     {
         private readonly List<Author> _authors;
 

@@ -10,6 +10,7 @@
         "dependencies": {
           "BusinessObjects": "1.0.0",
           "DataAccessLayer": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "10.0.5",
           "Microsoft.Extensions.Hosting": "10.0.5",
           "Services": "1.0.0"
         },

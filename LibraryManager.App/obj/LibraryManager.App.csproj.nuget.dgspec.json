@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {}
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {}
   },
   "projects": {
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
-        "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-        "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -64,17 +64,17 @@
         }
       }
     },
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
-        "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-        "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -87,8 +87,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
               }
             }
           }
@@ -128,17 +128,17 @@
         }
       }
     },
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
         "projectName": "LibraryManager.App",
-        "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
-        "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-        "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/obj/",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -151,14 +151,14 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
               },
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
               },
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj"
               }
             }
           }
@@ -179,6 +179,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[10.0.5, )"
@@ -204,17 +208,17 @@
         }
       }
     },
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj": {
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj",
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj",
         "projectName": "Services",
-        "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj",
-        "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-        "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/obj/",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -227,11 +231,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
               },
-              "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
-                "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
               }
             }
           }
