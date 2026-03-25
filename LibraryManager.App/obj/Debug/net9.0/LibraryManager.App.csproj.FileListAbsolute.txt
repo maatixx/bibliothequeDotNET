@@ -103,3 +103,4 @@
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/Debug/net9.0/LibraryManager.App.pdb
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/Debug/net9.0/LibraryManager.App.genruntimeconfig.cache
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/Debug/net9.0/ref/LibraryManager.App.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/obj/Debug/net9.0/LibraryManager.App.sourcelink.json

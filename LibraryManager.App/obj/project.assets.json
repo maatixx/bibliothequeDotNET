@@ -1767,19 +1767,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/nadirelmoutaouakil/.nuget/packages/": {}
+    "/Users/matheisfardel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+      "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
       "projectName": "LibraryManager.App",
-      "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
-      "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
-      "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/",
+      "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+      "packagesPath": "/Users/matheisfardel/.nuget/packages/",
+      "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
+        "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

@@ -20,6 +20,22 @@ namespace LibraryManager.App
             {
                 Console.WriteLine($"- {book.Name} ({book.Type})");
             }
+
+            // Exercice LINQ : Filtrer les livres de type "Aventure"
+            Console.WriteLine("\n--- Livres de type 'Aventure' ---");
+            
+            // Méthode 1 : Filtrer puis afficher
+            var adventureBooks = books.Where(book => book.Type == "Aventure");
+            foreach (var book in adventureBooks)
+            {
+                Console.WriteLine($"Aventure : {book.Name}");
+            }
+
+            // Méthode 2 : Tout en une ligne (chaînage de méthodes)
+            Console.WriteLine("\n--- Avec ForEach ---");
+            books.Where(book => book.Type == "Aventure")
+                 .ToList()
+                 .ForEach(book => Console.WriteLine($"Aventure : {book.Name}"));
         }
     }
 }
