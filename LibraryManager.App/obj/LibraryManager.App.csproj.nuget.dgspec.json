@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {}
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {}
   },
   "projects": {
-    "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
-        "projectName": "LibraryManager.App",
-        "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
-        "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-        "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/obj/",
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -44,12 +44,210 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+        "projectName": "LibraryManager.App",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/LibraryManager.App.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
+              },
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[10.0.5, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj",
+        "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+        "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+              },
+              "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",

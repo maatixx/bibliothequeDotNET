@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using DataAccessLayer.Repository;
+using BusinessObjects.Enum;
 
 namespace LibraryManager.App
 {
@@ -7,36 +9,36 @@ namespace LibraryManager.App
     {
         static void Main(string[] args)
         {
-            // Create a list of books and ensure at least one is of type "Aventure"
-            List<Book> books = new List<Book>
-            {
-                new Book { Name = "Les Aventures de Tom Sawyer", Type = "Aventure" },
-                new Book { Name = "Clean Code", Type = "Programming" },
-                new Book { Name = "Le Petit Prince", Type = "Fiction" }
-            };
+            // Create the BookRepository
+            BookRepository bookRepository = new BookRepository();
 
-            Console.WriteLine("Book list:");
-            foreach (var book in books)
+            // Display all books
+            Console.WriteLine("=== All Books ===");
+            var allBooks = bookRepository.GetAll();
+            foreach (var book in allBooks)
             {
                 Console.WriteLine($"- {book.Name} ({book.Type})");
             }
 
-            // Exercice LINQ : Filtrer les livres de type "Aventure"
-            Console.WriteLine("\n--- Livres de type 'Aventure' ---");
-            
-            // Méthode 1 : Filtrer puis afficher
-            var adventureBooks = books.Where(book => book.Type == "Aventure");
+            // Filter and display adventure books only
+            Console.WriteLine("\n=== Adventure Books Only ===");
+            var adventureBooks = allBooks.Where(book => book.Type == TypeBook.Aventure);
             foreach (var book in adventureBooks)
             {
-                Console.WriteLine($"Aventure : {book.Name}");
+                Console.WriteLine($"- {book.Name} (ID: {book.Id})");
             }
 
-            // Méthode 2 : Tout en une ligne (chaînage de méthodes)
-            Console.WriteLine("\n--- Avec ForEach ---");
-            books.Where(book => book.Type == "Aventure")
-                 .ToList()
-                 .ForEach(book => Console.WriteLine($"Aventure : {book.Name}"));
+            // Display a specific book by ID
+            Console.WriteLine("\n=== Get Book by ID ===");
+            var bookById = bookRepository.Get(1);
+            if (bookById != null)
+            {
+                Console.WriteLine($"Book found: {bookById.Name} - {bookById.Type}");
+            }
+            else
+            {
+                Console.WriteLine("Book not found");
+            }
         }
     }
 }
-// End of Program

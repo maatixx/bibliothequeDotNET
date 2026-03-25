@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v9.0": {
       "LibraryManager.App/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Hosting": "10.0.5"
+          "DataAccessLayer": "1.0.0",
+          "Microsoft.Extensions.Hosting": "10.0.5",
+          "Services": "1.0.0"
         },
         "runtime": {
           "LibraryManager.App.dll": {}
@@ -450,6 +452,37 @@
             "fileVersion": "10.0.526.15411"
           }
         }
+      },
+      "BusinessObjects/1.0.0": {
+        "runtime": {
+          "BusinessObjects.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DataAccessLayer/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0"
+        },
+        "runtime": {
+          "DataAccessLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Services/1.0.0": {
+        "dependencies": {
+          "BusinessObjects": "1.0.0",
+          "DataAccessLayer": "1.0.0"
+        },
+        "runtime": {
+          "Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -682,6 +715,21 @@
       "sha512": "sha512-vW2zhkWziyfhoSXNf42mTWyilw+vfwBGOsODDsHSFtOIY6LCgfRVUyaAilLEL4Kc1fzhaxcep5pS0VWYPSDW0w==",
       "path": "system.text.json/10.0.5",
       "hashPath": "system.text.json.10.0.5.nupkg.sha512"
+    },
+    "BusinessObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
