@@ -110,3 +110,9 @@
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/DataAccessLayer.pdb
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/Services.pdb
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/BusinessObjects.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/BusinessObjects.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/DataAccessLayer.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/Services.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/BusinessObjects.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/DataAccessLayer.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/LibraryManager.App/bin/Debug/net9.0/Services.pdb

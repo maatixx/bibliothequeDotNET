@@ -10,3 +10,15 @@
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/refint/BusinessObjects.dll
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.pdb
 /Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/ref/BusinessObjects.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/bin/Debug/net9.0/BusinessObjects.deps.json
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/bin/Debug/net9.0/BusinessObjects.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/bin/Debug/net9.0/BusinessObjects.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.AssemblyInfoInputs.cache
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.AssemblyInfo.cs
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.csproj.CoreCompileInputs.cache
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.sourcelink.json
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/refint/BusinessObjects.dll
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/BusinessObjects.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/Debug/net9.0/ref/BusinessObjects.dll

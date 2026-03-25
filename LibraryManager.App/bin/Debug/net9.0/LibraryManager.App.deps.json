@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "LibraryManager.App/1.0.0": {
         "dependencies": {
+          "BusinessObjects": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "Microsoft.Extensions.Hosting": "10.0.5",
           "Services": "1.0.0"
