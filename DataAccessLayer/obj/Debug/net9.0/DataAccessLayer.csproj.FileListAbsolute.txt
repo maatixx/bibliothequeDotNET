@@ -1,20 +1,5 @@
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.deps.json
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.dll
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.pdb
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/BusinessObjects.dll
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/BusinessObjects.pdb
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.csproj.AssemblyReference.cache
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.AssemblyInfoInputs.cache
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.AssemblyInfo.cs
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.csproj.CoreCompileInputs.cache
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.sourcelink.json
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAcce.E67BD773.Up2Date
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.dll
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/refint/DataAccessLayer.dll
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.pdb
-/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/ref/DataAccessLayer.dll
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.deps.json
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.runtimeconfig.json
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.dll
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/DataAccessLayer.pdb
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/bin/Debug/net9.0/BusinessObjects.dll
@@ -29,4 +14,5 @@
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.dll
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/refint/DataAccessLayer.dll
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.pdb
+/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/DataAccessLayer.genruntimeconfig.cache
 /Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/obj/Debug/net9.0/ref/DataAccessLayer.dll
