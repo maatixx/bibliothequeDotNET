@@ -4103,19 +4103,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/matheisfardel/.nuget/packages/": {}
+    "/Users/nadirelmoutaouakil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Tests/Services.Test/Services.Test.csproj",
+      "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Tests/Services.Test/Services.Test.csproj",
       "projectName": "Services.Test",
-      "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Tests/Services.Test/Services.Test.csproj",
-      "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-      "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Tests/Services.Test/obj/",
+      "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Tests/Services.Test/Services.Test.csproj",
+      "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+      "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Tests/Services.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+        "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -4128,14 +4128,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
-              "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
+            "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj": {
+              "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj"
             },
-            "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
-              "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
+            "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj": {
+              "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/DataAccessLayer/DataAccessLayer.csproj"
             },
-            "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj": {
-              "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/Services/Services.csproj"
+            "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj": {
+              "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/Services/Services.csproj"
             }
           }
         }

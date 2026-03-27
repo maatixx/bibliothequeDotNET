@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/matheisfardel/.nuget/packages/": {}
+    "/Users/nadirelmoutaouakil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+      "projectUniqueName": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
       "projectName": "BusinessObjects",
-      "projectPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
-      "packagesPath": "/Users/matheisfardel/.nuget/packages/",
-      "outputPath": "/Users/matheisfardel/Desktop/IUT/BUT3/dotnet2026/bibliothequeDotNET/BusinessObjects/obj/",
+      "projectPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/BusinessObjects.csproj",
+      "packagesPath": "/Users/nadirelmoutaouakil/.nuget/packages/",
+      "outputPath": "/Users/nadirelmoutaouakil/Documents/NET/bibliothequeDotNET/BusinessObjects/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matheisfardel/.nuget/NuGet/NuGet.Config"
+        "/Users/nadirelmoutaouakil/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
