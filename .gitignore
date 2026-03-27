@@ -1,0 +1,29 @@
+# Répertoires de compilation
+bin/
+obj/
+.vs/
+
+# Fichiers de configuration IDE
+.vscode/
+.idea/
+*.sln.user
+*.userprefs
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.log
+
+# Fichiers spécifiques à macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Dépendances NuGet
+.nuget/consume.lock.json
+.nuget/project.lock.json
+.nuget/project.assets.json
+
+# Fichiers locaux de configuration
+local.settings.json
+appsettings.local.json
