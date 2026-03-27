@@ -2,33 +2,37 @@ using Microsoft.AspNetCore.Mvc;
 using Services.Services;
 using BusinessObjects.Entity;
 using BusinessObjects.Enum;
+using BusinessObjects.DataTransferObject;
 
 namespace LibraryManager.Hosting.Controllers
 {
     /// <summary>
     /// Controller for managing books in the library system.
     /// Provides REST API endpoints for CRUD operations and filtering.
+    /// All responses use BookDto to limit data exposure and improve security.
     /// </summary>
     [ApiController]
     [Route("api/[controller]")]
     public class BooksController : ControllerBase
     {
         private readonly ICatalogManager _catalogManager;
+        private readonly IMapperService _mapperService;
         private readonly ILogger<BooksController> _logger;
 
         /// <summary>
         /// Initializes a new instance of the BooksController.
         /// </summary>
-        public BooksController(ICatalogManager catalogManager, ILogger<BooksController> logger)
+        public BooksController(ICatalogManager catalogManager, IMapperService mapperService, ILogger<BooksController> logger)
         {
             _catalogManager = catalogManager;
+            _mapperService = mapperService;
             _logger = logger;
         }
 
         /// <summary>
         /// Get all books in the catalog.
         /// </summary>
-        /// <returns>List of all books</returns>
+        /// <returns>List of all books as DTOs</returns>
         /// <response code="200">Returns the list of all books</response>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -37,8 +41,9 @@ namespace LibraryManager.Hosting.Controllers
             try
             {
                 var books = _catalogManager.GetCatalog();
+                var booksDto = _mapperService.MapToBooksDto(books);
                 _logger.LogInformation("Retrieved all books. Count: {BookCount}", books.Count());
-                return Ok(books);
+                return Ok(booksDto);
             }
             catch (Exception ex)
             {
@@ -51,7 +56,7 @@ namespace LibraryManager.Hosting.Controllers
         /// Get a specific book by its ID.
         /// </summary>
         /// <param name="id">The book ID</param>
-        /// <returns>The book if found</returns>
+        /// <returns>The book if found as DTO</returns>
         /// <response code="200">Returns the book</response>
         /// <response code="404">Book not found</response>
         [HttpGet("{id}")]
@@ -68,8 +73,9 @@ namespace LibraryManager.Hosting.Controllers
                     return NotFound(new { message = $"Book with ID {id} not found" });
                 }
 
+                var bookDto = _mapperService.MapToBookDto(book);
                 _logger.LogInformation("Retrieved book with ID {BookId}", id);
-                return Ok(book);
+                return Ok(bookDto);
             }
             catch (Exception ex)
             {
@@ -82,7 +88,7 @@ namespace LibraryManager.Hosting.Controllers
         /// Get books filtered by their type.
         /// </summary>
         /// <param name="type">The book type to filter by (Aventure, Programming, Fiction, Mystery, Science, History)</param>
-        /// <returns>List of books matching the specified type</returns>
+        /// <returns>List of books matching the specified type as DTOs</returns>
         /// <response code="200">Returns the filtered list of books</response>
         /// <response code="400">Invalid book type</response>
         [HttpGet("type/{type}")]
@@ -99,8 +105,9 @@ namespace LibraryManager.Hosting.Controllers
                 }
 
                 var books = _catalogManager.GetCatalog(bookType);
+                var booksDto = _mapperService.MapToBooksDto(books);
                 _logger.LogInformation("Retrieved books of type {BookType}. Count: {BookCount}", type, books.Count());
-                return Ok(books);
+                return Ok(booksDto);
             }
             catch (Exception ex)
             {
@@ -112,7 +119,7 @@ namespace LibraryManager.Hosting.Controllers
         /// <summary>
         /// Get the top-rated book (by ID, simulated).
         /// </summary>
-        /// <returns>The top-rated book</returns>
+        /// <returns>The top-rated book as DTO</returns>
         /// <response code="200">Returns the top-rated book</response>
         /// <response code="404">No books found</response>
         [HttpGet("top-rated")]
@@ -129,8 +136,9 @@ namespace LibraryManager.Hosting.Controllers
                     return NotFound(new { message = "No books found in the catalog" });
                 }
 
+                var bookDto = _mapperService.MapToBookDto(books);
                 _logger.LogInformation("Retrieved top-rated book: {BookName}", books.Name);
-                return Ok(books);
+                return Ok(bookDto);
             }
             catch (Exception ex)
             {
@@ -142,31 +150,42 @@ namespace LibraryManager.Hosting.Controllers
         /// <summary>
         /// Create a new book.
         /// </summary>
-        /// <param name="book">The book to create</param>
-        /// <returns>The created book</returns>
+        /// <param name="bookDto">The book data to create (as DTO)</param>
+        /// <returns>The created book as DTO</returns>
         /// <response code="201">Book created successfully</response>
         /// <response code="400">Invalid book data</response>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult CreateBook([FromBody] Book book)
+        public IActionResult CreateBook([FromBody] BookDto bookDto)
         {
             try
             {
-                if (book == null)
+                if (bookDto == null)
                 {
                     _logger.LogWarning("Attempted to create book with null data");
                     return BadRequest(new { message = "Book data cannot be null" });
                 }
 
-                if (string.IsNullOrWhiteSpace(book.Name))
+                if (string.IsNullOrWhiteSpace(bookDto.Name))
                 {
                     _logger.LogWarning("Attempted to create book with empty name");
                     return BadRequest(new { message = "Book name is required" });
                 }
 
+                // Convert DTO to entity for storage
+                var book = new Book
+                {
+                    Name = bookDto.Name,
+                    Isbn = bookDto.Isbn,
+                    PublicationYear = bookDto.PublicationYear,
+                    Type = bookDto.Type,
+                    AuthorId = 1 // Default to first author for now
+                };
+
                 _logger.LogInformation("Created new book: {BookName}", book.Name);
-                return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, book);
+                var responseDto = _mapperService.MapToBookDto(book);
+                return CreatedAtAction(nameof(GetBookById), new { id = book.Id }, responseDto);
             }
             catch (Exception ex)
             {

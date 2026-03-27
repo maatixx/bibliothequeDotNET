@@ -20,6 +20,7 @@ builder.Services.AddTransient(typeof(IGenericRepository<>), typeof(GenericReposi
 
 // Register services
 builder.Services.AddTransient<ICatalogManager, CatalogManager>();
+builder.Services.AddTransient<IMapperService, MapperService>();
 
 // Configure JSON options to handle circular references
 builder.Services.AddControllers()
